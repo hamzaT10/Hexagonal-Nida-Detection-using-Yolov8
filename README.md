@@ -11,12 +11,12 @@ Custom Dataset: A dataset of honeycomb structures was annotated and preprocessed
 Real-time Detection: Enables real-time processing for industrial applications where speed and precision are critical.
 Scalability: Designed to work in various environments and with different hexagonal configurations, making it adaptable to diverse industrial needs.
 # Technologies Used
-YOLOv8: The state-of-the-art object detection model used for detecting hexagonal patterns and generating CNC cutting paths.
-Python: Main programming language for developing the detection model and CNC trajectory calculation.
-Roboflow: Used for annotating and augmenting the dataset to train the YOLOv8 model.
-OpenCV: Applied for image processing and calculating precise cut points for CNC operations.
-PyTorch: Framework used for training and fine-tuning the YOLOv8 model.
-NumPy & Matplotlib: Used for data manipulation and visualization.
+- **YOLOv8**: The state-of-the-art object detection model used for detecting hexagonal patterns and generating CNC cutting paths.
+- **Python**: Main programming language for developing the detection model and CNC trajectory calculation.
+- **Roboflow**: Used for annotating and augmenting the dataset to train the YOLOv8 model.
+- **OpenCV**: Applied for image processing and calculating precise cut points for CNC operations.
+- **PyTorch**: Framework used for training and fine-tuning the YOLOv8 model.
+- **NumPy & Matplotlib**: Used for data manipulation and visualization.
 # Purpose of the Project
 The primary goal of this project is to automate the cutting process of hexagonal honeycomb structures using a CNC machine. By detecting the hexagonal patterns and calculating the center of each side, the project provides an efficient way to define the cutting trajectory, ensuring precise and automated cuts for industrial applications. This improves both the speed and accuracy of CNC operations, reducing manual labor and enhancing production quality.
 
